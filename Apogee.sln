@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F8CC55A-19D5-4455-BF8F-891D28C65CDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A8E6C52-1040-423D-93FC-ECABDCC59CEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apogee", "src\Apogee\Apogee.csproj", "{4B51FD75-A81B-421C-8FB6-1A5662AB7138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apogee.Tests", "tests\Apogee.Tests\Apogee.Tests.csproj", "{408FB366-F59F-40FC-AC9C-D3ECF3C431A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B51FD75-A81B-421C-8FB6-1A5662AB7138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B51FD75-A81B-421C-8FB6-1A5662AB7138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B51FD75-A81B-421C-8FB6-1A5662AB7138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B51FD75-A81B-421C-8FB6-1A5662AB7138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408FB366-F59F-40FC-AC9C-D3ECF3C431A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408FB366-F59F-40FC-AC9C-D3ECF3C431A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408FB366-F59F-40FC-AC9C-D3ECF3C431A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408FB366-F59F-40FC-AC9C-D3ECF3C431A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B51FD75-A81B-421C-8FB6-1A5662AB7138} = {2F8CC55A-19D5-4455-BF8F-891D28C65CDC}
+		{408FB366-F59F-40FC-AC9C-D3ECF3C431A0} = {2A8E6C52-1040-423D-93FC-ECABDCC59CEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4346EC5-45AC-49B8-BF64-2406AEE480C2}
+	EndGlobalSection
+EndGlobal
